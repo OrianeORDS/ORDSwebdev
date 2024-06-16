@@ -11,7 +11,7 @@ for (var i = 0; i < s4Img.length; i++) {
     }
 
 function clindoeil(event){
-    event.srcElement.setAttribute("src","./images/oeil/eye2.png");
+    event.srcElement.setAttribute("src","./public/images/oeil/eye2.png");
     setTimeout(function () {
-        event.srcElement.setAttribute("src","./images/oeil/eye1.png" );}, 300);
+        event.srcElement.setAttribute("src","./public/images/oeil/eye1.png" );}, 300);
 }
