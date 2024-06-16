@@ -22,7 +22,7 @@ section {
     min-width: 150px;
 }
 
-button { 
+a { 
     border-radius: 10%;
     border: none;
     text-align: center;
@@ -34,7 +34,7 @@ button {
     margin-left : 1.5vw ; 
 }
 
-button:hover {
+a:hover {
     background-color: gold;
   }
 
@@ -128,11 +128,11 @@ button:hover {
     padding: 2vw;
     aspect-ratio: 700/800;
 }
-.section3 button {
+.section3 a {
     border: #402666 solid 1px;
     background-color : rgba(151, 131, 180, 0.2) ;
 }
-button:hover{
+a:hover{
     background-color: #30646B;
     color: #DEE8E3;
 }
@@ -323,7 +323,7 @@ p {
     @media (max-width : 600px) {
 
 
-        button { 
+        a { 
             font-size : 2.5vw ; 
         }
         h1 {
