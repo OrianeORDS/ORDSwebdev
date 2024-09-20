@@ -1,3 +1,8 @@
+/* Notes : if I had to do this work again,
+I would use a BEM methodology to name class selectors inside the html and then organise CSS code by sections only,
+with global variables for the colors */ 
+
+
 /*STRUCTURE FICHIER */ 
 /*PREMIERE PARTIE DU CSS = SIZE AND BEHAVIOR */
 /* DEUXIEME PARTIE CSS =  COULEURS, TYPOS ET POLICES */
@@ -40,14 +45,8 @@ a {
     padding: 1vw;
     margin-left : 1.5vw ; 
 }
-/* SUPPRIMER ? 
-a:hover {
-    background-color: gold;
-  }*/ 
-
 
 /*class */ 
-
 .btn {
    display : block ;
    width: 20rem ; 
@@ -62,10 +61,7 @@ a:hover {
 .divider {
     width : 100% ; 
     height: 1vw ;
-} /*
-.img {
-    align-content : center; 
-} */ 
+} 
 .rectangle-1tiers{
     flex-basis : 38% ; 
 }
@@ -82,6 +78,7 @@ a:hover {
 .footer p {
     padding: 0vw 2vw;
     margin : 0 ; 
+    color: #000000;
 }
 .footer img {
     width: 50px;
@@ -141,9 +138,10 @@ a:hover {
 .section3 a {
     border: #402666 solid 1px;
     background-color : rgba(151, 131, 180, 0.2) ;
+    width: 20rem ; 
 }
 a:hover{
-    background-color: #30646B;
+    background-color: #30646B ;
     color: #DEE8E3;
 }
 
@@ -168,10 +166,13 @@ a:hover{
     #section4 img {
         opacity: 20% ;
     }
-
     #S4texte {
-        grid-row : 3 / 6 ; 
-        grid-column : 6 / -2 ;  
+        grid-row : 6 / 8 ; 
+        grid-column : 4 / 6 ;  
+    } 
+    /* adding width to button */ 
+    #S4texte .btn { 
+        width: 10rem ;
     }
     #S4img0{
         grid-row: 1 / 3 ;
@@ -220,19 +221,6 @@ a:hover{
 /**/
 /* DEUXIEME PARTIE CSS =  COULEURS, TYPOS ET POLICES */
 /*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
-
-
-/* recap couleurs du design :
-
-light-purple : #D4C3D8
-medium-purple : #9783B4
-intense-purple : #402666
-
-light-green : #DEE8E3
-medium-green: #7ED6AC
-intense-green : #30646B
-*/
-
 /* éléments */ 
 
 h1 {
