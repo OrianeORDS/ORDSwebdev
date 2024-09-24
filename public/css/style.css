@@ -1,6 +1,7 @@
 /* Notes : if I had to do this work again,
 I would use a BEM methodology to name class selectors inside the html and then organise CSS code by sections only,
-with global variables for the colors */ 
+with global variables for the colors 
+I would use rem and media queries instead of vw sizes */ 
 
 
 /*STRUCTURE FICHIER */ 
